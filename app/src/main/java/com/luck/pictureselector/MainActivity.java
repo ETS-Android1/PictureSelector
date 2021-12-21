@@ -449,7 +449,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         //.setButtonFeatures(CustomCameraView.BUTTON_STATE_BOTH)// 设置自定义相机按钮状态
                         .maxSelectNum(maxSelectNum)// 最大图片选择数量
                         .minSelectNum(1)// 最小选择数量
-                        .minImageSize(3000)
                         .maxVideoSelectNum(1) // 视频最大选择数量
                         //.minVideoSelectNum(1)// 视频最小选择数量
                         //.closeAndroidQChangeVideoWH(!SdkVersionUtils.checkedAndroid_Q())// 关闭在AndroidQ下获取图片或视频宽高相反自动转换
